@@ -1,0 +1,128 @@
+.route{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.route input{
+    padding: 10px;
+}
+.route button{
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 30px;
+    background-color: rgb(36, 97, 250);
+    color: #fff;
+}
+.eachdata{
+    
+    text-align: center;
+    margin: 20px;
+    background-color:  #f4ed69;
+    width:300px;
+    height:350px;
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+}
+.eachdata img{
+    
+    width: 300px;
+    height: 200px;
+}
+.mainflx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eachdata button{
+    padding: 8px;
+    border: 1px solid burlywood ;
+    border-radius: 10px;
+    background-color: rgb(94, 91, 87);
+    margin: 5px;
+    box-shadow: 1px 1px 10px gray;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.eachdata button:hover{
+    box-shadow: 1px 1px 10px;
+    background-color:rgb(242, 136, 136);
+    color: black;
+}
+.cartfood{
+    text-align: center;
+}
+.view{
+    text-align: center;
+}
+.viewbtn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(235, 134, 134);
+    box-shadow: 1px 1px 10px ;
+    border-radius: 10px;
+}
+.viewbtn:hover{
+    background-color: rgb(128, 229, 128);
+    
+}
+.eachflx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.order h1{
+    text-align: center;
+    font-size:32px;
+}
+.orderitem{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ordereachitem{
+    width: 300px;
+    text-align: center;
+    height: 380px;
+    background-color: #f3ec68;
+    margin: 20px;
+    box-shadow: 1px 1px 10px ;
+    border-radius: 20px;
+}
+.ordereachitem button{
+    padding: 8px;
+    margin: 5px;
+}
+.ordereachitem button:hover{
+    background-color: rgb(240, 150, 150);
+}
+.ordereachitem img{
+    width: 300px;
+    height: 200px;
+}
+.ordereachitem span{
+    font-size: 20px;
+    font-size: bold;
+}
+.infoflx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infoitem{
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    background-color:thistle;
+    border: 1px solid thistle;
+    box-shadow: 1px 1px 20px;
+    border-radius: 10px;
+}
+.infoitem img{
+    width: 300px;
+    height: 200px;
+}
+.infoitem span{
+    font-size: 25px;
+    padding: 20px;
+}
